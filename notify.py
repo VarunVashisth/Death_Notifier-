@@ -33,7 +33,7 @@ async def main():
         play(clip)
 
         # Random wait time between notifications (30 min to 5 hrs)
-        wait_seconds = random.randint(5*1, 10*1)
+        wait_seconds = random.randint(30*60, 5*60*60)
         print(f"Next Notification in : {wait_seconds}" )
 
         await asyncio.sleep(wait_seconds)

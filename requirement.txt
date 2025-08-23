@@ -1,0 +1,5 @@
+install asyncio
+install desktop_notifier 
+install pydub 
+
+
